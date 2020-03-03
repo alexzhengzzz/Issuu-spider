@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cdbcd12c-2b58-4254-8377-ee821fdc8958" name="Default Changelist" comment="" />
+    <list default="true" id="cdbcd12c-2b58-4254-8377-ee821fdc8958" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IssuuSpider/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/IssuuSpider/pipelines.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IssuuSpider/spiders/myspider.py" beforeDir="false" afterPath="$PROJECT_DIR$/IssuuSpider/spiders/myspider.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +51,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1583224602534</updated>
-      <workItem from="1583224607948" duration="1706000" />
+      <workItem from="1583224607948" duration="2226000" />
+      <workItem from="1583232159774" duration="5457000" />
     </task>
     <servers />
   </component>
@@ -59,7 +64,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
