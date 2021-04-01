@@ -7,10 +7,9 @@ class MySpider(scrapy.Spider):
     # MySpider Name
     name = "alex"
     website = "https://issuu.com"
-    state_code = "nBJyxXnRXwn2qJz7in9xh_a6dwKjLxLR6heWBJUy5VyXYa_qVvYRfqdF3YPTPudVMaZITEjB0vDcFf46" \
-                 "-M6OIsuxv8pwZgxpyMiPihHMfq7HDTnE_zTkZnE-CoxeyZAp4929WdXK6P8aSfay4RzLngBJ8gpxGD1fDdIdrH2SD3wSTz6ytw== "
+    state_code = "Kb37l2wNAVkOEEW_70FHjzjTWVJRjCUuoK59Lac8mt7okzZkJPl5yqH--U4Cdtc4kSWMoLND1SGzqxkl6X1zi9mNZ97Fv_ux8dPmG0LS1zBkGlc6fGXSY35_vX9rnl7ojoImVlwsiwFeQAliKzlcUQfbLoqQN6MyUWgvB7FIY8SEROh3izzvPze3DB2uJQ== "
     start_urls = [
-        'https://issuu.com/call/stream/api/publicationsearch/1/0/cont/master-45?state={}&pageSize=20&format=json'.format(
+        'https://issuu.com/call/stream/api/publicationsearch/1/0/cont/master-70?state={}&pageSize=20&format=json'.format(
             state_code)
     ]
 

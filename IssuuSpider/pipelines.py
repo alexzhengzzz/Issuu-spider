@@ -15,8 +15,8 @@ class IssuuspiderPipeline(object):
         self.file.close()
 
     def process_item(self, item, spider):
-        data = str(item['follow']) + ',' + str(item['like']) + ',' + item['detail_url'] + ';\n'
-        if item['follow'] > 0 and item['like'] > 5:
+        data = str(item['follow']) + ',' + str(item['like']) + ',' + item['detail_url'] + '\n'
+        if item['follow'] > 0 and item['like'] > 50:
             self.file.write(data)
             return data
         else:
